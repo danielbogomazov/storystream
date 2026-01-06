@@ -3,12 +3,21 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "postinstall": "patch-package",
+    "start": "expo start --dev-client",
+    "start:tunnel": "expo start --dev-client --tunnel",
+    "prebuild": "expo prebuild",
+    "prebuild:clean": "expo prebuild --clean",
+    "install:android": "expo run:android",
+    "install:ios": "expo run:ios",
+    "build": "eas build",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "eas-build-pre-install": "corepack enable"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",

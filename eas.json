@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 12.5.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "production": {
+      "environment": "production",
+      "developmentClient": false,
+      "autoIncrement": true,
+      "env": {
+        "APP_VARIANT": "production"
+      }
+    },
+    "production-preview": {
+      "extends": "production",
+      "distribution": "internal"
+    },
+    "production-preview-local": {
+      "extends": "production-preview",
+      "developmentClient": true
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "internal",
+        "changesNotSentForReview": true,
+        "releaseStatus": "draft"
+      },
+      "ios": {
+        "ascAppId": "",
+        "sku": "",
+        "companyName": "Daniel Bogomazov",
+        "bundleIdentifier": "com.danielbogomazov.storystream"
+      }
+    }
+  }
+}
