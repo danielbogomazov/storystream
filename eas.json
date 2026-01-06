@@ -27,12 +27,6 @@
         "track": "internal",
         "changesNotSentForReview": true,
         "releaseStatus": "draft"
-      },
-      "ios": {
-        "ascAppId": "",
-        "sku": "",
-        "companyName": "Daniel Bogomazov",
-        "bundleIdentifier": "com.danielbogomazov.storystream"
       }
     }
   }
