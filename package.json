@@ -20,11 +20,14 @@
     "eas-build-pre-install": "corepack enable"
   },
   "dependencies": {
+    "@dr.pogodin/react-native-fs": "^2.36.2",
+    "@dr.pogodin/react-native-static-server": "^0.25.4",
     "@expo/vector-icons": "^15.0.3",
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
     "@react-navigation/native": "^7.1.8",
     "expo": "~54.0.30",
+    "expo-build-properties": "^1.0.10",
     "expo-constants": "~18.0.12",
     "expo-font": "~14.0.10",
     "expo-haptics": "~15.0.8",
