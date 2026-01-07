@@ -44,7 +44,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.20.0, @babel/core@npm:^7.25.2":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.20.0, @babel/core@npm:^7.25.2, @babel/core@npm:^7.26.0":
   version: 7.28.5
   resolution: "@babel/core@npm:7.28.5"
   dependencies:
@@ -8914,6 +8914,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "storystream@workspace:."
   dependencies:
+    "@babel/core": "npm:^7.26.0"
     "@dr.pogodin/react-native-fs": "npm:^2.36.2"
     "@dr.pogodin/react-native-static-server": "npm:^0.25.4"
     "@expo/vector-icons": "npm:^15.0.3"

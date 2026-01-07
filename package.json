@@ -11,7 +11,7 @@
     "install:ios": "expo run:ios",
     "build:production": "eas build --profile production",
     "build:production:preview": "eas build --profile production-preview",
-    "build:production:review:local": "eas build --profile production-preview-local",
+    "build:production:preview:local": "eas build --profile production-preview-local",
     "web": "expo start --web",
     "lint": "expo lint",
     "prettier:check": "prettier --check .",
@@ -50,6 +50,7 @@
     "react-native-web": "~0.21.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.0",
     "@types/react": "~19.1.0",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
