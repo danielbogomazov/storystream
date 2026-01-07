@@ -18,7 +18,7 @@
     "prettier:write": "prettier --write .",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "eas-build-pre-install": "corepack enable"
+    "eas-build-pre-install": "corepack enable && ./scripts/pre-install.sh"
   },
   "dependencies": {
     "@dr.pogodin/react-native-fs": "^2.36.2",
